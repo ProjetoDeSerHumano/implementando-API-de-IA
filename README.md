@@ -1,3 +1,3 @@
 # implementa-o-de-API-de-IA
 
-só um projetinho pra testar uma ferramento do gpt 
+só um projeto básico pra testar a ferramenta de API do gpt 

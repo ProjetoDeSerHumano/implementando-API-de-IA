@@ -1,0 +1,28 @@
+{
+  "name": "implementa-o-de-api-de-ia",
+  "version": "1.0.0",
+  "description": "só um projetinho pra testar uma ferramento do gpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjetoDeSerHumano/implementa-o-de-API-de-IA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjetoDeSerHumano/implementa-o-de-API-de-IA/issues"
+  },
+  "homepage": "https://github.com/ProjetoDeSerHumano/implementa-o-de-API-de-IA#readme",
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fastify": "^5.11.2",
+    "nunjucks": "^3.2.4",
+    "openai": "^7.4.0"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat com IA</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+    
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Faça uma pergunta para a IA</h1>
+        
+        <form action="/pergunta" method="POST">
+            <textarea name="pergunta_usuario" rows="4" placeholder="Digite aqui..." required>{{ pergunta_feita }}</textarea>
+            <button type="submit">Enviar Pergunta</button>
+        </form>
+
+        {% if resposta_ia %}
+        <div class="resposta-container">
+            <h3>Resposta:</h3>
+            <div class="resposta-texto">
+                {{ resposta_ia | safe }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
